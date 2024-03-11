@@ -1,2 +1,3 @@
-public class Sunflower {
+public class Sunflower extends Flower{
+
 }
