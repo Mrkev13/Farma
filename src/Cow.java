@@ -1,15 +1,10 @@
-public abstract class Animal {
-
-    protected String type;
-    protected String name;
-    protected Size size;
-    protected String specialCare;
+public class Cow extends Animal{
 
 
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "Cow{" +
                 "type='" + type + '\'' +
                 ", name='" + name + '\'' +
                 ", size=" + size +
