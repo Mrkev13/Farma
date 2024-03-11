@@ -8,6 +8,15 @@ public class Snapdragon extends Flower{
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
     }
+
+    @Override
+    public String toString() {
+        return "Snapdragon{" +
+                "price=" + price +
+                ", neededArea=" + neededArea +
+                ", chanceOfGrowth=" + chanceOfGrowth +
+                '}';
+    }
 }
 
 

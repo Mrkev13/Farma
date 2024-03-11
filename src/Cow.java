@@ -1,10 +1,10 @@
 public class Cow extends Animal{
-
+    private String type;
     private String name;
     private Size size;
     private String specialCare;
 
-    public Cow(String name, Size size, String specialCare) {
+    public Cow(String type, String name, Size size, String specialCare) {
         this.name = name;
         this.size = size;
         this.specialCare = specialCare;

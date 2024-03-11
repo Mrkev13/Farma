@@ -9,5 +9,14 @@ public class Cornflower extends Flower{
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
     }
+
+    @Override
+    public String toString() {
+        return "Cornflower{" +
+                "price=" + price +
+                ", neededArea=" + neededArea +
+                ", chanceOfGrowth=" + chanceOfGrowth +
+                '}';
+    }
 }
 

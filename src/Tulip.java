@@ -8,4 +8,13 @@ public class Tulip extends Flower{
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
     }
+
+    @Override
+    public String toString() {
+        return "Tulip{" +
+                "price=" + price +
+                ", neededArea=" + neededArea +
+                ", chanceOfGrowth=" + chanceOfGrowth +
+                '}';
+    }
 }
